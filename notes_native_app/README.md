@@ -32,7 +32,7 @@ A simple native notes app with local storage persistence. Create, view, edit, de
 npm install
 ```
 
-2) Start dev server
+2) Start dev server (CI-friendly, non-interactive)
 ```
 npm run start
 ```

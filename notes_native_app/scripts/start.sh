@@ -7,4 +7,5 @@ if [ ! -f package.json ] || ! command -v npm >/dev/null 2>&1; then
   echo "Missing package.json or npm; cannot start" >&2; exit 4
 fi
 # Use non-interactive start for CI/preview systems. No backgrounding or '&' used.
-exec npm run start:ci
+# Preview system will call `npm run start`, which maps to `expo start --non-interactive`.
+exec npm run start
