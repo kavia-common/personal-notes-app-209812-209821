@@ -1,0 +1,1 @@
+{ "name": "notes_native_app", "version": "0.1.0", "private": true, "scripts": { "test": "jest --passWithNoTests" } }
