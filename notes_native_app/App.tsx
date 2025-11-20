@@ -1,3 +1,8 @@
+/**
+ * Expo-managed entry for Notes Native App.
+ * This file is used by Expo AppEntry.js via package.json "main".
+ * Ensures compatibility with the preview system (non-interactive start).
+ */
 import React from 'react';
 import { NavigationContainer, DefaultTheme, Theme as NavTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
